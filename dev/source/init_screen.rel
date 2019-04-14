@@ -1,0 +1,39 @@
+XL2
+H 9 areas C global symbols
+M init_screen
+O -mz80
+S _devkit_SMS_displayOn Ref0000
+S _engine_content_manager_load_guards Ref0000
+S _engine_anim_manager_player_load_move Ref0000
+S _engine_score_manager_init Ref0000
+S .__.ABS. Def0000
+S _global_game_object Ref0000
+S _engine_anim_manager_enemyX_load_idle Ref0000
+S _devkit_SMS_displayOff Ref0000
+S _engine_text_manager_clear_all Ref0000
+S _engine_anim_manager_player_load_idle Ref0000
+A _CODE size 29 flags 0 addr 0
+S _screen_init_screen_load Def0000
+S _screen_init_screen_update Def0022
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 CD 00 00 CD 00 00 CD 00 00 CD
+R 00 00 00 00 02 03 07 00 02 06 08 00 02 09 01 00
+T 0A 00 00 00 CD 00 00 CD 00 00 CD
+R 00 00 00 00 02 02 09 00 02 05 02 00 02 08 06 00
+T 13 00 00 00 21 00 00 23 23 46 C5 33 CD 00 00 33
+R 00 00 00 00 02 02 00 00 02 05 05 00 02 0D 03 00
+T 21 00 C9
+R 00 00 00 00
+T 22 00
+R 00 00 00 00
+T 22 00 C1 E1 E5 C5 36 0C C9
+R 00 00 00 00

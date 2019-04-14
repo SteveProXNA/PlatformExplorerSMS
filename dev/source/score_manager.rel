@@ -1,0 +1,86 @@
+XL2
+H 9 areas F global symbols
+M score_manager
+O -mz80
+S _engine_font_manager_draw_text Ref0000
+S .__.ABS. Def0000
+S _lives_text Ref0000
+S _engine_font_manager_draw_data Ref0000
+S _engine_tile_manager_draw_tile Ref0000
+A _CODE size CE flags 0 addr 0
+S _engine_score_manager_draw_score_at Def00B5
+S _engine_score_manager_reset_lives Def0021
+S _engine_score_manager_draw_score Def00AC
+S _engine_score_manager_reset_gems Def001B
+S _engine_score_manager_draw_lives Def0083
+S _engine_score_manager_bonus_gems Def004C
+S _engine_score_manager_init Def0000
+S _engine_score_manager_update_lives Def006E
+S _engine_score_manager_update_gems Def0029
+A _DATA size 6 flags 0 addr 0
+S _global_score_object Def0000
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 21 02 00 39 3E 04 96 32 00 00 21 02 00 36
+R 00 00 00 00 00 0A 01 00 00 0D 01 00
+T 0E 00 00 21 00 00 22 04 00 CD 1B 00 C3 21 00
+R 00 00 00 00 00 07 01 00 00 0A 00 00 00 0D 00 00
+T 1B 00
+R 00 00 00 00
+T 1B 00 21 03 00 36 00 C9
+R 00 00 00 00 00 03 01 00
+T 21 00
+R 00 00 00 00
+T 21 00 01 01 00 3A 00 00 02 C9
+R 00 00 00 00 00 03 01 00 00 06 01 00
+T 29 00
+R 00 00 00 00
+T 29 00 01 02 00 0A 3C 02 01 03 00 0A 3C 02 ED 4B
+R 00 00 00 00 00 03 01 00 00 09 01 00
+T 37 00 04 00 03 ED 43 04 00 3E 0F B9 3E 27 98 D0
+R 00 00 00 00 00 02 01 00 00 07 01 00
+T 45 00 21 0F 27 22 04 00 C9
+R 00 00 00 00 00 06 01 00
+T 4C 00
+R 00 00 00 00
+T 4C 00 01 02 00 0A C6 05 02 ED 4B 04 00 03 03 03
+R 00 00 00 00 00 03 01 00 00 0B 01 00
+T 5A 00 03 03 ED 43 04 00 3E 0F B9 3E 27 98 D0 21
+R 00 00 00 00 00 06 01 00
+T 68 00 0F 27 22 04 00 C9
+R 00 00 00 00 00 05 01 00
+T 6E 00
+R 00 00 00 00
+T 6E 00 01 01 00 0A 5F B7 C8 3E 09 93 D8 7B 21
+R 00 00 00 00 00 03 01 00
+T 7B 00 02 00 39 86 02 C3 83 00
+R 00 00 00 00 00 08 00 00
+T 83 00
+R 00 00 00 00
+T 83 00 21 01 00 5E D5 21 1E 16 E5 3E 0D F5 33 CD
+R 00 00 00 00 00 03 01 00
+T 91 00 00 00 F1 33 D1 01 00 00 6B 26 00 29 09 4E
+R 00 00 00 00 02 02 04 00 02 08 02 00
+T 9F 00 23 46 21 1F 17 E5 C5 CD 00 00 F1 F1 C9
+R 00 00 00 00 02 0A 00 00
+T AC 00
+R 00 00 00 00
+T AC 00 21 1F 02 E5 CD B5 00 F1 C9
+R 00 00 00 00 00 07 00 00
+T B5 00
+R 00 00 00 00
+T B5 00 ED 4B 04 00 21 03 00 39 7E F5 33 21 03 00
+R 00 00 00 00 00 04 01 00
+T C3 00 39 7E F5 33 C5 CD 00 00 F1 F1 C9
+R 00 00 00 00 02 08 03 00

@@ -1,0 +1,101 @@
+XL2
+H 9 areas 10 global symbols
+M title_screen
+O -mz80
+S _rand Ref0000
+S _engine_text_manager_clear_three Ref0000
+S _engine_audio_manager_sound_power Ref0000
+S _engine_font_manager_draw_text Ref0000
+S _engine_audio_manager_sound_accept Ref0000
+S _engine_input_manager_hold_fire1 Ref0000
+S _engine_input_manager_hold_fire2 Ref0000
+S _global_hack_object Ref0000
+S .__.ABS. Def0000
+S _global_game_object Ref0000
+S _engine_delay_manager_update Ref0000
+S _engine_text_manager_cheat_write Ref0000
+S _engine_delay_manager_load Ref0000
+S _engine_text_manager_cheat_blank Ref0000
+A _CODE size FD flags 0 addr 0
+S _screen_title_screen_update Def003B
+S _screen_title_screen_load Def0000
+A _DATA size 2 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 01 00
+R 00 00 01 00
+T 01 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 21 32 00 E5 CD 00 00 F1 CD 00 00 CD 00 00
+R 00 00 00 00 02 07 0C 00 02 0B 01 00 02 0E 0D 00
+T 0E 00 21 0C 12 E5 21 2F 00 E5 CD 00 00 F1 F1 21
+R 00 00 00 00 00 07 00 00 02 0B 03 00
+T 1C 00 01 00 36 00 21 01 00 36 00 21 00 00 23 7E
+R 00 00 00 00 00 02 01 00 02 07 09 00 02 0C 07 00
+T 2A 00 B7 C8 C3 00 00
+R 00 00 00 00 02 05 0B 00
+T 2F 00
+R 00 00 00 00
+T 2F 00 50 52 45 53 53 20 53 54 41 52 54 00
+R 00 00 00 00
+T 3B 00
+R 00 00 00 00
+T 3B 00 DD E5 DD 21 00 00 DD 39 F5 3A 00 00 B7 28
+R 00 00 00 00 02 0C 07 00
+T 49 00 30 CD 00 00 7D B7 28 29 21 00 00 3E 01 96
+R 00 00 00 00 02 04 0A 00 00 0B 01 00
+T 57 00 77 3A 00 00 B7 28 0F 21 00 12 E5 21 D0 00
+R 00 00 00 00 00 04 01 00 00 0E 00 00
+T 65 00 E5 CD 00 00 F1 F1 18 0D
+R 00 00 00 00 02 04 03 00
+T 6D 00
+R 00 00 00 00
+T 6D 00 21 0C 12 E5 21 F1 00 E5 CD 00 00 F1 F1
+R 00 00 00 00 00 07 00 00 02 0B 03 00
+T 7A 00
+R 00 00 00 00
+T 7A 00 CD 00 00 DD 7E 04 DD 77 FE DD 7E 05 DD 77
+R 00 00 00 00 02 03 05 00
+T 88 00 FF 7D B7 28 09 CD 00 00 E1 E5 36 05 18 35
+R 00 00 00 00 02 08 04 00
+T 96 00
+R 00 00 00 00
+T 96 00 CD 00 00 7D B7 28 27 21 00 00 23 7E B7 20
+R 00 00 00 00 02 03 06 00 02 0A 07 00
+T A4 00 1F 3A 01 00 B7 20 19 FD 21 01 00 FD 34 00
+R 00 00 00 00 02 04 09 00 00 0B 01 00
+T B2 00 FD 7E 00 D6 05 38 0B CD 00 00 CD 00 00 21
+R 00 00 00 00 02 0A 0B 00 02 0D 02 00
+T C0 00 01 00 36 01
+R 00 00 00 00 02 02 09 00
+T C4 00
+R 00 00 00 00
+T C4 00 CD 00 00 E1 E5 36 04
+R 00 00 00 00 02 03 00 00
+T CB 00
+R 00 00 00 00
+T CB 00 DD F9 DD E1 C9
+R 00 00 00 00
+T D0 00
+R 00 00 00 00
+T D0 00 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+R 00 00 00 00
+T DE 00 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+R 00 00 00 00
+T EC 00 20 20 20 20 00
+R 00 00 00 00
+T F1 00
+R 00 00 00 00
+T F1 00 50 52 45 53 53 20 53 54 41 52 54 00
+R 00 00 00 00

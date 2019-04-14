@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{665FDA6D-B94E-4346-A2D0-EB100B164882}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin\$(ConfigurationName)</OutDir>
+    <IntDir>$(SolutionDir)..\obj\$(ConfigurationName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="banks\bank10.c" />
+    <ClCompile Include="banks\bank11.c" />
+    <ClCompile Include="banks\bank12.c" />
+    <ClCompile Include="banks\bank13.c" />
+    <ClCompile Include="banks\bank14.c" />
+    <ClCompile Include="banks\bank15.c" />
+    <ClCompile Include="banks\bank2.c" />
+    <ClCompile Include="banks\bank3.c" />
+    <ClCompile Include="banks\bank4.c" />
+    <ClCompile Include="banks\bank5.c" />
+    <ClCompile Include="banks\bank6.c" />
+    <ClCompile Include="banks\bank7.c" />
+    <ClCompile Include="banks\bank8.c" />
+    <ClCompile Include="banks\bank9.c" />
+    <ClCompile Include="engine\asm_manager.c" />
+    <ClCompile Include="gfx.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="psg.c" />
+    <ClCompile Include="source\anim_manager.c" />
+    <ClCompile Include="source\anim_object.c" />
+    <ClCompile Include="source\audio_manager.c" />
+    <ClCompile Include="source\audio_object.c" />
+    <ClCompile Include="source\beat_screen.c" />
+    <ClCompile Include="source\begin_screen.c" />
+    <ClCompile Include="source\cont_screen.c" />
+    <ClCompile Include="source\dead_screen.c" />
+    <ClCompile Include="source\delay_manager.c" />
+    <ClCompile Include="source\diff_screen.c" />
+    <ClCompile Include="source\entry_screen.c" />
+    <ClCompile Include="source\gems_screen.c" />
+    <ClCompile Include="source\info_manager.c" />
+    <ClCompile Include="source\intro_object.c" />
+    <ClCompile Include="source\intro_screen.c" />
+    <ClCompile Include="source\level_screen.c" />
+    <ClCompile Include="source\memory_manager.c" />
+    <ClCompile Include="source\memo_manager.c" />
+    <ClCompile Include="source\over_screen.c" />
+    <ClCompile Include="source\pace_screen.c" />
+    <ClCompile Include="source\pass_screen.c" />
+    <ClCompile Include="source\ready_screen.c" />
+    <ClCompile Include="source\reset_manager.c" />
+    <ClCompile Include="source\reset_screen.c" />
+    <ClCompile Include="source\score_manager.c" />
+    <ClCompile Include="source\screen_manager.c" />
+    <ClCompile Include="source\content_manager.c" />
+    <ClCompile Include="source\debug_manager.c" />
+    <ClCompile Include="source\enemy_manager.c" />
+    <ClCompile Include="source\font_manager.c" />
+    <ClCompile Include="source\func_screen.c" />
+    <ClCompile Include="source\game_manager.c" />
+    <ClCompile Include="source\global_manager.c" />
+    <ClCompile Include="source\hack_manager.c" />
+    <ClCompile Include="source\init_screen.c" />
+    <ClCompile Include="source\input_manager.c" />
+    <ClCompile Include="source\level_manager.c" />
+    <ClCompile Include="source\level_object.c" />
+    <ClCompile Include="source\load_screen.c" />
+    <ClCompile Include="source\none_screen.c" />
+    <ClCompile Include="source\player_manager.c" />
+    <ClCompile Include="source\play_screen.c" />
+    <ClCompile Include="source\splash_screen.c" />
+    <ClCompile Include="source\sprite_manager.c" />
+    <ClCompile Include="source\state_manager.c" />
+    <ClCompile Include="source\stats_manager.c" />
+    <ClCompile Include="source\test_screen.c" />
+    <ClCompile Include="source\text_manager.c" />
+    <ClCompile Include="source\tile_manager.c" />
+    <ClCompile Include="source\title_screen.c" />
+    <ClCompile Include="source\tutorial_object.c" />
+    <ClCompile Include="source\view_screen.c" />
+    <ClCompile Include="source\_sms_manager.c" />
+    <ClCompile Include="source\_snd_manager.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="banks\bank10.h" />
+    <ClInclude Include="banks\bank11.h" />
+    <ClInclude Include="banks\bank12.h" />
+    <ClInclude Include="banks\bank13.h" />
+    <ClInclude Include="banks\bank14.h" />
+    <ClInclude Include="banks\bank15.h" />
+    <ClInclude Include="banks\bank2.h" />
+    <ClInclude Include="banks\bank3.h" />
+    <ClInclude Include="banks\bank4.h" />
+    <ClInclude Include="banks\bank5.h" />
+    <ClInclude Include="banks\bank6.h" />
+    <ClInclude Include="banks\bank7.h" />
+    <ClInclude Include="banks\bank8.h" />
+    <ClInclude Include="banks\bank9.h" />
+    <ClInclude Include="engine\asm_manager.h" />
+    <ClInclude Include="gfx.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="psg.h" />
+    <ClInclude Include="source\anim_manager.h" />
+    <ClInclude Include="source\anim_object.h" />
+    <ClInclude Include="source\audio_manager.h" />
+    <ClInclude Include="source\audio_object.h" />
+    <ClInclude Include="source\beat_screen.h" />
+    <ClInclude Include="source\begin_screen.h" />
+    <ClInclude Include="source\cont_screen.h" />
+    <ClInclude Include="source\dead_screen.h" />
+    <ClInclude Include="source\delay_manager.h" />
+    <ClInclude Include="source\delay_object.h" />
+    <ClInclude Include="source\diff_screen.h" />
+    <ClInclude Include="source\entry_screen.h" />
+    <ClInclude Include="source\game_object.h" />
+    <ClInclude Include="source\gems_screen.h" />
+    <ClInclude Include="source\info_manager.h" />
+    <ClInclude Include="source\intro_object.h" />
+    <ClInclude Include="source\intro_screen.h" />
+    <ClInclude Include="source\level_screen.h" />
+    <ClInclude Include="source\locale_manager.h" />
+    <ClInclude Include="source\memory_manager.h" />
+    <ClInclude Include="source\memo_manager.h" />
+    <ClInclude Include="source\over_screen.h" />
+    <ClInclude Include="source\pace_screen.h" />
+    <ClInclude Include="source\pass_screen.h" />
+    <ClInclude Include="source\ready_screen.h" />
+    <ClInclude Include="source\reset_manager.h" />
+    <ClInclude Include="source\reset_object.h" />
+    <ClInclude Include="source\reset_screen.h" />
+    <ClInclude Include="source\score_manager.h" />
+    <ClInclude Include="source\score_object.h" />
+    <ClInclude Include="source\screen_manager.h" />
+    <ClInclude Include="source\content_manager.h" />
+    <ClInclude Include="source\debug_manager.h" />
+    <ClInclude Include="source\enemy_object.h" />
+    <ClInclude Include="source\enemy_manager.h" />
+    <ClInclude Include="source\enum_manager.h" />
+    <ClInclude Include="source\font_manager.h" />
+    <ClInclude Include="source\func_screen.h" />
+    <ClInclude Include="source\game_manager.h" />
+    <ClInclude Include="source\global_manager.h" />
+    <ClInclude Include="source\hack_manager.h" />
+    <ClInclude Include="source\hack_object.h" />
+    <ClInclude Include="source\init_screen.h" />
+    <ClInclude Include="source\input_manager.h" />
+    <ClInclude Include="source\level_manager.h" />
+    <ClInclude Include="source\level_object.h" />
+    <ClInclude Include="source\load_screen.h" />
+    <ClInclude Include="source\none_screen.h" />
+    <ClInclude Include="source\player_manager.h" />
+    <ClInclude Include="source\player_object.h" />
+    <ClInclude Include="source\play_screen.h" />
+    <ClInclude Include="source\splash_screen.h" />
+    <ClInclude Include="source\sprite_manager.h" />
+    <ClInclude Include="source\state_manager.h" />
+    <ClInclude Include="source\stats_manager.h" />
+    <ClInclude Include="source\stats_object.h" />
+    <ClInclude Include="source\test_screen.h" />
+    <ClInclude Include="source\text_manager.h" />
+    <ClInclude Include="source\tile_manager.h" />
+    <ClInclude Include="source\title_screen.h" />
+    <ClInclude Include="source\tutorial_object.h" />
+    <ClInclude Include="source\view_screen.h" />
+    <ClInclude Include="source\_sms_manager.h" />
+    <ClInclude Include="source\_snd_manager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build.bat" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

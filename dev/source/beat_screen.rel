@@ -1,0 +1,39 @@
+XL2
+H 9 areas A global symbols
+M beat_screen
+O -mz80
+S .__.ABS. Def0000
+S _engine_delay_manager_update Ref0000
+S _engine_enemyX_manager_draw_enemys Ref0000
+S _engine_memo_manager_draw_beat Ref0000
+S _engine_audio_manager_music_stop Ref0000
+S _engine_player_manager_hide Ref0000
+S _engine_audio_manager_music_beat Ref0000
+S _engine_delay_manager_load Ref0000
+A _CODE size 2E flags 0 addr 0
+S _screen_beat_screen_update Def0011
+S _screen_beat_screen_load Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 CD 00 00 CD 00 00 21 84 03 E5 CD 00 00 F1
+R 00 00 00 00 02 03 04 00 02 06 06 00 02 0D 07 00
+T 0E 00 C3 00 00
+R 00 00 00 00 02 03 03 00
+T 11 00
+R 00 00 00 00
+T 11 00 CD 00 00 CD 00 00 CD 00 00 4D D1 E1 E5 D5
+R 00 00 00 00 02 03 02 00 02 06 05 00 02 09 01 00
+T 1F 00 79 B7 28 08 E5 CD 00 00 E1 36 03 C9
+R 00 00 00 00 02 08 04 00
+T 2B 00
+R 00 00 00 00
+T 2B 00 36 14 C9
+R 00 00 00 00

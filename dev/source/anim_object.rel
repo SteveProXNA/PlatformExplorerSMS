@@ -1,0 +1,105 @@
+XL2
+H 9 areas 1A global symbols
+M anim_object
+O -mz80
+S _player_run_rght_05__tiles__psgcompr Ref0000
+S _enemyA_idle__tiles__psgcompr Ref0000
+S _enemyB_idle__tiles__psgcompr Ref0000
+S _enemyC_idle__tiles__psgcompr Ref0000
+S _enemyD_idle__tiles__psgcompr Ref0000
+S .__.ABS. Def0000
+S _player_idle__tiles__psgcompr Ref0000
+S _player_run_left_01__tiles__psgcompr Ref0000
+S _player_run_left_02__tiles__psgcompr Ref0000
+S _player_run_left_03__tiles__psgcompr Ref0000
+S _player_run_left_04__tiles__psgcompr Ref0000
+S _player_run_left_05__tiles__psgcompr Ref0000
+S _player_run_rght_01__tiles__psgcompr Ref0000
+S _player_run_rght_02__tiles__psgcompr Ref0000
+S _player_run_rght_03__tiles__psgcompr Ref0000
+S _player_run_rght_04__tiles__psgcompr Ref0000
+A _CODE size E flags 0 addr 0
+S _enemyD_anim_bank Def000D
+S _player_anim_bank Def0000
+S _enemyA_anim_bank Def000A
+S _enemyB_anim_bank Def000B
+S _enemyC_anim_bank Def000C
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 1E flags 0 addr 0
+S _player_anim_data Def0000
+S _enemyA_anim_data Def0016
+S _enemyB_anim_data Def0018
+S _enemyC_anim_data Def001A
+S _enemyD_anim_data Def001C
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 1E flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 02 00
+T 00 00
+R 00 00 02 00
+T 16 00
+R 00 00 02 00
+T 16 00
+R 00 00 02 00
+T 18 00
+R 00 00 02 00
+T 18 00
+R 00 00 02 00
+T 1A 00
+R 00 00 02 00
+T 1A 00
+R 00 00 02 00
+T 1C 00
+R 00 00 02 00
+T 1C 00
+R 00 00 02 00
+T 00 00
+R 00 00 00 00
+T 00 00 02 02 02 02 02 02 02 02 02 02
+R 00 00 00 00
+T 0A 00
+R 00 00 00 00
+T 0A 00 02
+R 00 00 00 00
+T 0B 00
+R 00 00 00 00
+T 0B 00 02
+R 00 00 00 00
+T 0C 00
+R 00 00 00 00
+T 0C 00 02
+R 00 00 00 00
+T 0D 00
+R 00 00 00 00
+T 0D 00 02
+R 00 00 00 00
+T 00 00
+R 00 00 07 00
+T 00 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 06 00 02 04 07 00 02 06 08 00
+T 06 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 09 00 02 04 0A 00 02 06 0B 00
+T 0C 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 0C 00 02 04 0D 00 02 06 0E 00
+T 12 00 00 00 00 00
+R 00 00 07 00 02 02 0F 00 02 04 00 00
+T 16 00
+R 00 00 07 00
+T 16 00 00 00
+R 00 00 07 00 02 02 01 00
+T 18 00
+R 00 00 07 00
+T 18 00 00 00
+R 00 00 07 00 02 02 02 00
+T 1A 00
+R 00 00 07 00
+T 1A 00 00 00
+R 00 00 07 00 02 02 03 00
+T 1C 00
+R 00 00 07 00
+T 1C 00 00 00
+R 00 00 07 00 02 02 04 00

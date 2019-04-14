@@ -1,0 +1,160 @@
+XL2
+H 9 areas 33 global symbols
+M screen_manager
+O -mz80
+S _screen_begin_screen_update Ref0000
+S _screen_intro_screen_load Ref0000
+S _screen_level_screen_init Ref0000
+S _screen_gems_screen_load Ref0000
+S _screen_func_screen_load Ref0000
+S _screen_splash_screen_update Ref0000
+S _screen_none_screen_load Ref0000
+S _screen_dead_screen_update Ref0000
+S _screen_entry_screen_load Ref0000
+S _screen_init_screen_load Ref0000
+S _screen_cont_screen_load Ref0000
+S _screen_play_screen_load Ref0000
+S _screen_pass_screen_load Ref0000
+S _screen_ready_screen_update Ref0000
+S _screen_level_screen_update Ref0000
+S _screen_view_screen_load Ref0000
+S _screen_diff_screen_update Ref0000
+S _screen_pace_screen_update Ref0000
+S _screen_over_screen_load Ref0000
+S _screen_beat_screen_update Ref0000
+S _screen_test_screen_load Ref0000
+S .__.ABS. Def0000
+S _screen_load_screen_update Ref0000
+S _screen_begin_screen_load Ref0000
+S _screen_title_screen_update Ref0000
+S _screen_reset_screen_update Ref0000
+S _screen_splash_screen_load Ref0000
+S ___sdcc_call_hl Ref0000
+S _screen_dead_screen_load Ref0000
+S _screen_intro_screen_update Ref0000
+S _screen_gems_screen_update Ref0000
+S _screen_func_screen_update Ref0000
+S _screen_none_screen_update Ref0000
+S _screen_entry_screen_update Ref0000
+S _screen_ready_screen_load Ref0000
+S _screen_init_screen_update Ref0000
+S _screen_cont_screen_update Ref0000
+S _screen_level_screen_load Ref0000
+S _screen_diff_screen_load Ref0000
+S _screen_pace_screen_load Ref0000
+S _screen_play_screen_update Ref0000
+S _screen_pass_screen_update Ref0000
+S _screen_beat_screen_load Ref0000
+S _screen_view_screen_update Ref0000
+S _screen_over_screen_update Ref0000
+S _screen_load_screen_load Ref0000
+S _screen_title_screen_load Ref0000
+S _screen_reset_screen_load Ref0000
+S _screen_test_screen_update Ref0000
+A _CODE size 167 flags 0 addr 0
+S _engine_screen_manager_init Def0000
+S _engine_screen_manager_update Def0124
+A _DATA size 5E flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 2E 00
+R 00 00 01 00
+T 2E 00
+R 00 00 01 00
+T 5C 00
+R 00 00 01 00
+T 5C 00
+R 00 00 01 00
+T 5D 00
+R 00 00 01 00
+T 5D 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 21 02 00 39 7E 32 5D 00 21 5C 00 36 00 21
+R 00 00 00 00 00 08 01 00 00 0B 01 00
+T 0E 00 00 00 22 00 00 21 00 00 22
+R 00 00 00 00 02 02 06 00 00 05 01 00 02 08 1A 00
+T 17 00 02 00 21 00 00 22 04 00 21
+R 00 00 00 00 00 02 01 00 02 05 01 00 00 08 01 00
+T 20 00 00 00 22 06 00 21 00 00 22
+R 00 00 00 00 02 02 17 00 00 05 01 00 02 08 2E 00
+T 29 00 08 00 21 00 00 22 0A 00 21
+R 00 00 00 00 00 02 01 00 02 05 08 00 00 08 01 00
+T 32 00 00 00 22 0C 00 21 00 00 22
+R 00 00 00 00 02 02 26 00 00 05 01 00 02 08 27 00
+T 3B 00 0E 00 21 00 00 22 10 00 21
+R 00 00 00 00 00 02 01 00 02 05 25 00 00 08 01 00
+T 44 00 00 00 22 12 00 21 00 00 22
+R 00 00 00 00 02 02 0F 00 00 05 01 00 02 08 09 00
+T 4D 00 14 00 21 00 00 22 18 00 21
+R 00 00 00 00 00 02 01 00 02 05 2D 00 00 08 01 00
+T 56 00 00 00 22 16 00 21 00 00 22
+R 00 00 00 00 02 02 22 00 00 05 01 00 02 08 0B 00
+T 5F 00 1A 00 21 00 00 22 1C 00 21
+R 00 00 00 00 00 02 01 00 02 05 2F 00 00 08 01 00
+T 68 00 00 00 22 1E 00 21 00 00 22
+R 00 00 00 00 02 02 0C 00 00 05 01 00 02 08 03 00
+T 71 00 20 00 21 00 00 22 22 00 21
+R 00 00 00 00 00 02 01 00 02 05 1C 00 00 08 01 00
+T 7A 00 00 00 22 24 00 21 00 00 22
+R 00 00 00 00 02 02 0A 00 00 05 01 00 02 08 12 00
+T 83 00 26 00 21 00 00 22 28 00 21
+R 00 00 00 00 00 02 01 00 02 05 2A 00 00 08 01 00
+T 8C 00 00 00 22 2A 00 21 00 00 22
+R 00 00 00 00 02 02 14 00 00 05 01 00 02 08 04 00
+T 95 00 2C 00 21 00 00 22 2E 00 21
+R 00 00 00 00 00 02 01 00 02 05 20 00 00 08 01 00
+T 9E 00 00 00 22 30 00 21 00 00 22
+R 00 00 00 00 02 02 05 00 00 05 01 00 02 08 1D 00
+T A7 00 32 00 21 00 00 22 34 00 21
+R 00 00 00 00 00 02 01 00 02 05 00 00 00 08 01 00
+T B0 00 00 00 22 36 00 21 00 00 22
+R 00 00 00 00 02 02 18 00 00 05 01 00 02 08 21 00
+T B9 00 38 00 21 00 00 22 3A 00 21
+R 00 00 00 00 00 02 01 00 02 05 10 00 00 08 01 00
+T C2 00 00 00 22 3C 00 21 00 00 22
+R 00 00 00 00 02 02 11 00 00 05 01 00 02 08 0E 00
+T CB 00 3E 00 21 00 00 22 40 00 21
+R 00 00 00 00 00 02 01 00 02 05 2B 00 00 08 01 00
+T D4 00 00 00 22 42 00 21 00 00 22
+R 00 00 00 00 02 02 23 00 00 05 01 00 02 08 16 00
+T DD 00 46 00 21 00 00 22 44 00 21
+R 00 00 00 00 00 02 01 00 02 05 0D 00 00 08 01 00
+T E6 00 00 00 22 48 00 21 00 00 22
+R 00 00 00 00 02 02 28 00 00 05 01 00 02 08 19 00
+T EF 00 4A 00 21 00 00 22 4C 00 21
+R 00 00 00 00 00 02 01 00 02 05 29 00 00 08 01 00
+T F8 00 00 00 22 4E 00 21 00 00 22
+R 00 00 00 00 02 02 1E 00 00 05 01 00 02 08 07 00
+T 01 01 50 00 21 00 00 22 52 00 21
+R 00 00 00 00 00 02 01 00 02 05 24 00 00 08 01 00
+T 0A 01 00 00 22 54 00 21 00 00 22
+R 00 00 00 00 02 02 2C 00 00 05 01 00 02 08 13 00
+T 13 01 56 00 21 00 00 22 58 00 21
+R 00 00 00 00 00 02 01 00 02 05 30 00 00 08 01 00
+T 1C 01 00 00 22 5A 00 C3 00 00
+R 00 00 00 00 02 02 1F 00 00 05 01 00 02 08 02 00
+T 24 01
+R 00 00 00 00
+T 24 01 3A 5C 00 FD 21 5D 00 FD 96 00 28 1B FD 7E
+R 00 00 00 00 00 03 01 00 00 07 01 00
+T 32 01 00 FD 21 5C 00 FD 77 00 01 00 00 FD 6E 00
+R 00 00 00 00 00 05 01 00 00 0B 01 00
+T 40 01 26 00 29 09 4E 23 66 69 CD 00 00
+R 00 00 00 00 02 0B 1B 00
+T 4B 01
+R 00 00 00 00
+T 4B 01 01 2E 00 FD 21 5C 00 FD 6E 00 26 00 29 09
+R 00 00 00 00 00 03 01 00 00 07 01 00
+T 59 01 4E 23 46 21 5D 00 E5 69 60 CD 00 00 F1 C9
+R 00 00 00 00 00 06 01 00 02 0C 1B 00

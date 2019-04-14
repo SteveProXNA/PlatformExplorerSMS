@@ -1,0 +1,30 @@
+XL2
+H 9 areas 5 global symbols
+M sprite_manager
+O -mz80
+S .__.ABS. Def0000
+S _devkit_SMS_addSprite_bulk12 Ref0000
+S _devkit_SMS_addSprite_bulk8 Ref0000
+A _CODE size 36 flags 0 addr 0
+S _engine_sprite_manager_draw_enemyX Def001B
+S _engine_sprite_manager_draw_player Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 21 04 00 39 46 C5 33 21 04 00 39 7E F5 33
+R 00 00 00 00
+T 0E 00 21 04 00 39 7E F5 33 CD 00 00 F1 33 C9
+R 00 00 00 00 02 0A 01 00
+T 1B 00
+R 00 00 00 00
+T 1B 00 21 04 00 39 46 C5 33 21 04 00 39 7E F5 33
+R 00 00 00 00
+T 29 00 21 04 00 39 7E F5 33 CD 00 00 F1 33 C9
+R 00 00 00 00 02 0A 02 00

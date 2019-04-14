@@ -1,0 +1,55 @@
+XL2
+H 9 areas E global symbols
+M begin_screen
+O -mz80
+S _rand Ref0000
+S _devkit_SMS_displayOn Ref0000
+S _engine_content_manager_load_sprites Ref0000
+S _engine_font_manager_draw_text Ref0000
+S _engine_content_manager_load_back_tiles Ref0000
+S .__.ABS. Def0000
+S _devkit_SMS_displayOff Ref0000
+S _engine_content_manager_load_title Ref0000
+S _engine_asm_manager_clear_VRAM Ref0000
+S _engine_text_manager_clear_all Ref0000
+S _engine_tile_manager_draw_tile Ref0000
+S __modsint Ref0000
+A _CODE size 70 flags 0 addr 0
+S _screen_begin_screen_update Def0069
+S _screen_begin_screen_load Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 CD 00 00 CD 00 00 CD 00 00 CD
+R 00 00 00 00 02 03 06 00 02 06 08 00 02 09 09 00
+T 0A 00 00 00 CD 00 00 CD 00 00 06 02
+R 00 00 00 00 02 02 04 00 02 05 02 00 02 08 07 00
+T 14 00
+R 00 00 00 00
+T 14 00 C5 CD 00 00 11 09 00 D5 E5 CD 00 00 F1 F1
+R 00 00 00 00 02 04 00 00 02 0C 0B 00
+T 22 00 C1 55 14 C5 AF F5 33 4A C5 CD 00 00 F1 33
+R 00 00 00 00 02 0C 0A 00
+T 30 00 CD 00 00 11 09 00 D5 E5 CD 00 00 F1 F1 C1
+R 00 00 00 00 02 03 00 00 02 0B 0B 00
+T 3E 00 55 14 C5 3E 16 F5 33 4A C5 CD 00 00 F1 33
+R 00 00 00 00 02 0C 0A 00
+T 4C 00 C1 04 04 78 D6 20 38 C0 21 1C 15 E5 21
+R 00 00 00 00
+T 59 00 64 00 E5 CD 00 00 F1 F1 C3 00 00
+R 00 00 00 00 00 02 00 00 02 06 03 00 02 0B 01 00
+T 64 00
+R 00 00 00 00
+T 64 00 56 33 2E 30 00
+R 00 00 00 00
+T 69 00
+R 00 00 00 00
+T 69 00 C1 E1 E5 C5 36 04 C9
+R 00 00 00 00

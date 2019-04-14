@@ -1,0 +1,46 @@
+XL2
+H 9 areas 5 global symbols
+M delay_manager
+O -mz80
+S _global_hack_object Ref0000
+S .__.ABS. Def0000
+A _CODE size 49 flags 0 addr 0
+S _engine_delay_manager_update Def0027
+S _engine_delay_manager_load Def0000
+A _DATA size 4 flags 0 addr 0
+S _global_delay_object Def0000
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 DD E5 DD 21 00 00 DD 39 21 00 00 DD 7E 04
+R 00 00 00 00 00 0B 01 00
+T 0E 00 77 23 DD 7E 05 77 21 00 00 22 02 00 3A
+R 00 00 00 00 00 0C 01 00
+T 1B 00 00 00 B7 20 04 6F 22 00 00
+R 00 00 00 00 02 02 00 00 00 09 01 00
+T 24 00
+R 00 00 00 00
+T 24 00 DD E1 C9
+R 00 00 00 00
+T 27 00
+R 00 00 00 00
+T 27 00 ED 4B 02 00 03 ED 43 02 00 2A 00 00 79 95
+R 00 00 00 00 00 04 01 00 00 09 01 00 00 0C 01 00
+T 35 00 78 9C 3E 00 17 EE 01 4F 47 B7 28 06 21
+R 00 00 00 00
+T 42 00 00 00 22 02 00
+R 00 00 00 00 00 05 01 00
+T 47 00
+R 00 00 00 00
+T 47 00 68 C9
+R 00 00 00 00

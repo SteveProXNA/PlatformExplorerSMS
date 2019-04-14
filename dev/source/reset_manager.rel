@@ -1,0 +1,42 @@
+XL2
+H 9 areas 5 global symbols
+M reset_manager
+O -mz80
+S .__.ABS. Def0000
+A _CODE size 31 flags 0 addr 0
+S _engine_reset_manager_load Def0000
+S _engine_reset_manager_reset Def0010
+S _engine_reset_manager_update Def0016
+A _DATA size 3 flags 0 addr 0
+S _global_reset_object Def0000
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 21 00 00 FD 21 02 00 FD 39 FD 7E 00 77 C3
+R 00 00 00 00 00 03 01 00
+T 0E 00 10 00
+R 00 00 00 00 00 02 00 00
+T 10 00
+R 00 00 00 00
+T 10 00 21 01 00 36 00 C9
+R 00 00 00 00 00 03 01 00
+T 16 00
+R 00 00 00 00
+T 16 00 01 01 00 0A 5F 1C 7B 02 21 00 00 56 7B 92
+R 00 00 00 00 00 03 01 00 00 0B 01 00
+T 24 00 3E 00 17 EE 01 57 B7 28 02 AF 02
+R 00 00 00 00
+T 2F 00
+R 00 00 00 00
+T 2F 00 6A C9
+R 00 00 00 00

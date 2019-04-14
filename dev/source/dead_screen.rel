@@ -1,0 +1,67 @@
+XL2
+H 9 areas E global symbols
+M dead_screen
+O -mz80
+S _engine_player_manager_draw Ref0000
+S _global_player_object Ref0000
+S _engine_memo_manager_draw_dead Ref0000
+S _global_hack_object Ref0000
+S .__.ABS. Def0000
+S _engine_delay_manager_update Ref0000
+S _global_score_object Ref0000
+S _engine_enemyX_manager_draw_enemys Ref0000
+S _engine_audio_manager_music_stop Ref0000
+S _engine_audio_manager_sound_death Ref0000
+S _engine_score_manager_update_lives Ref0000
+S _engine_delay_manager_load Ref0000
+A _CODE size 76 flags 0 addr 0
+S _screen_dead_screen_update Def0036
+S _screen_dead_screen_load Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 CD 00 00 3A 00 00 B7 28 03 CD 00 00
+R 00 00 00 00 02 03 08 00 02 06 03 00 02 0C 09 00
+T 0C 00
+R 00 00 00 00
+T 0C 00 21 96 00 E5 CD 00 00 F1 2A 07 00 11 20 80
+R 00 00 00 00 02 07 0B 00 02 0B 01 00
+T 1A 00 29 3F CB 1C CB 1D ED 52 30 06 21 14 00 22
+R 00 00 00 00
+T 28 00 07 00
+R 00 00 00 00 02 02 01 00
+T 2A 00
+R 00 00 00 00
+T 2A 00 CD 00 00 3E FF F5 33 CD 00 00 33 C9
+R 00 00 00 00 02 03 02 00 02 0A 0A 00
+T 36 00
+R 00 00 00 00
+T 36 00 DD E5 DD 21 00 00 DD 39 CD 00 00 21 00 00
+R 00 00 00 00 02 0B 07 00 02 0E 01 00
+T 44 00 11 07 00 19 4E 23 CB 7E 20 03 CD 00 00
+R 00 00 00 00 02 0D 00 00
+T 51 00
+R 00 00 00 00
+T 51 00 CD 00 00 DD 5E 04 DD 56 05 7D B7 28 12 21
+R 00 00 00 00 02 03 05 00
+T 5F 00 00 00 23 7E B7 20 05 3E 12 12 18 08
+R 00 00 00 00 02 02 06 00
+T 6B 00
+R 00 00 00 00
+T 6B 00 3E 0B 12 18 03
+R 00 00 00 00
+T 70 00
+R 00 00 00 00
+T 70 00 3E 11 12
+R 00 00 00 00
+T 73 00
+R 00 00 00 00
+T 73 00 DD E1 C9
+R 00 00 00 00

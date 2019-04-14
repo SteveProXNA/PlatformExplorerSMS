@@ -1,0 +1,76 @@
+XL2
+H 9 areas F global symbols
+M audio_object
+O -mz80
+S _mus_beat_psg Ref0000
+S _mus_title_psg Ref0000
+S .__.ABS. Def0000
+S _mus_game01_psg Ref0000
+S _mus_over_psg Ref0000
+S _mus_game02_psg Ref0000
+S _mus_game03_psg Ref0000
+A _CODE size 6 flags 0 addr 0
+S _over_audio_bank Def0005
+S _game_audio_bank Def0000
+S _beat_audio_bank Def0004
+S _title_audio_bank Def0003
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size C flags 0 addr 0
+S _over_audio_data Def000A
+S _game_audio_data Def0000
+S _beat_audio_data Def0008
+S _title_audio_data Def0006
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size C flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 02 00
+T 00 00
+R 00 00 02 00
+T 06 00
+R 00 00 02 00
+T 06 00
+R 00 00 02 00
+T 08 00
+R 00 00 02 00
+T 08 00
+R 00 00 02 00
+T 0A 00
+R 00 00 02 00
+T 0A 00
+R 00 00 02 00
+T 00 00
+R 00 00 00 00
+T 00 00 07 08 09
+R 00 00 00 00
+T 03 00
+R 00 00 00 00
+T 03 00 06
+R 00 00 00 00
+T 04 00
+R 00 00 00 00
+T 04 00 06
+R 00 00 00 00
+T 05 00
+R 00 00 00 00
+T 05 00 06
+R 00 00 00 00
+T 00 00
+R 00 00 07 00
+T 00 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 03 00 02 04 05 00 02 06 06 00
+T 06 00
+R 00 00 07 00
+T 06 00 00 00
+R 00 00 07 00 02 02 01 00
+T 08 00
+R 00 00 07 00
+T 08 00 00 00
+R 00 00 07 00 02 02 00 00
+T 0A 00
+R 00 00 07 00
+T 0A 00 00 00
+R 00 00 07 00 02 02 04 00

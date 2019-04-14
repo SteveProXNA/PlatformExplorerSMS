@@ -1,0 +1,76 @@
+XL2
+H 9 areas 1B global symbols
+M main
+O -mz80
+S _engine_input_manager_update Ref0000
+S _engine_screen_manager_init Ref0000
+S _devkit_SMS_copySpritestoSAT Ref0000
+S _devkit_SMS_displayOn Ref0000
+S _devkit_SMS_init Ref0000
+S _devkit_PSGSFXFrame Ref0000
+S _engine_screen_manager_update Ref0000
+S _engine_content_manager_load_sprites Ref0000
+S _devkit_SMS_VDPturnOnFeature Ref0000
+S _devkit_SMS_finalizeSprites Ref0000
+S _engine_content_manager_load_back_tiles Ref0000
+S _devkit_VDPFEATURE_HIDEFIRSTCOL Ref0000
+S _devkit_PSGFrame Ref0000
+S _devkit_PSGSilenceChannels Ref0000
+S .__.ABS. Def0000
+S _devkit_SMS_setSpriteMode Ref0000
+S _devkit_SMS_resetPauseRequest Ref0000
+S _engine_state_manager_init Ref0000
+S _devkit_SMS_useFirstHalfTilesforSprites_False Ref0000
+S _devkit_SMS_displayOff Ref0000
+S _devkit_SPRITEMODE_NORMAL Ref0000
+S _engine_asm_manager_clear_VRAM Ref0000
+S _devkit_SMS_waitForVBlank Ref0000
+S _devkit_SMS_initSprites Ref0000
+S _devkit_SMS_queryPauseRequested Ref0000
+S _devkit_PSGRestoreVolumes Ref0000
+A _CODE size 77 flags 0 addr 0
+S _main Def0000
+A _DATA size 1 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 CD 00 00 CD 00 00 CD 00 00 CD
+R 00 00 00 00 02 03 15 00 02 06 04 00 02 09 13 00
+T 0A 00 00 00 45 C5 33 CD 00 00 33 CD 00 00 CD
+R 00 00 00 00 02 02 14 00 02 08 0F 00 02 0C 12 00
+T 17 00 00 00 E5 CD 00 00 F1 CD 00 00 CD
+R 00 00 00 00 02 02 0B 00 02 06 08 00 02 0A 0A 00
+T 22 00 00 00 CD 00 00 3E 01 F5 33 CD 00 00 33 CD
+R 00 00 00 00 02 02 07 00 02 05 11 00 02 0C 01 00
+T 30 00 00 00
+R 00 00 00 00 02 02 03 00
+T 32 00
+R 00 00 00 00
+T 32 00 CD 00 00 7D B7 28 1D CD 00 00 FD 21 00 00
+R 00 00 00 00 02 03 18 00 02 0A 10 00 00 0E 01 00
+T 40 00 FD 7E 00 EE 01 FD 77 00 FD CB 00 46 28 05
+R 00 00 00 00
+T 4E 00 CD 00 00 18 03
+R 00 00 00 00 02 03 0D 00
+T 53 00
+R 00 00 00 00
+T 53 00 CD 00 00
+R 00 00 00 00 02 03 19 00
+T 56 00
+R 00 00 00 00
+T 56 00 21 00 00 CB 46 20 D5 CD 00 00 CD 00 00 CD
+R 00 00 00 00 00 03 01 00 02 0A 17 00 02 0D 00 00
+T 64 00 00 00 CD 00 00 CD 00 00 CD
+R 00 00 00 00 02 02 06 00 02 05 09 00 02 08 16 00
+T 6D 00 00 00 CD 00 00 CD 00 00 18 BB
+R 00 00 00 00 02 02 02 00 02 05 0C 00 02 08 05 00

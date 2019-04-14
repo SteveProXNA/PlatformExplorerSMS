@@ -1,0 +1,77 @@
+XL2
+H 9 areas C global symbols
+M reset_screen
+O -mz80
+S _engine_player_manager_draw Ref0000
+S _engine_audio_manager_sound_reset Ref0000
+S .__.ABS. Def0000
+S _global_game_object Ref0000
+S _engine_delay_manager_update Ref0000
+S _engine_enemyX_manager_draw_enemys Ref0000
+S _engine_audio_manager_music_stop Ref0000
+S _global_reset_object Ref0000
+S _engine_memo_manager_draw_reset Ref0000
+S _engine_delay_manager_load Ref0000
+A _CODE size 82 flags 0 addr 0
+S _screen_reset_screen_update Def0017
+S _screen_reset_screen_load Def0000
+A _DATA size 1 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 CD 00 00 CD 00 00 21 4B 00 E5 CD 00 00 F1
+R 00 00 00 00 02 03 06 00 02 06 01 00 02 0D 09 00
+T 0E 00 CD 00 00 21 00 00 36 00 C9
+R 00 00 00 00 02 03 08 00 00 06 01 00
+T 17 00
+R 00 00 00 00
+T 17 00 DD E5 DD 21 00 00 DD 39 CD 00 00 3A 00 00
+R 00 00 00 00 02 0B 05 00 00 0E 01 00
+T 25 00 3D 20 27 CD 00 00 DD 4E 04 DD 46 05 7D B7
+R 00 00 00 00 02 06 04 00
+T 33 00 28 15 11 02 00 1A D6 03 20 09 21 04 00 7E
+R 00 00 00 00 02 05 07 00 02 0D 03 00
+T 41 00 B7 28 02 36 00
+R 00 00 00 00
+T 46 00
+R 00 00 00 00
+T 46 00 1A 02 18 35
+R 00 00 00 00
+T 4A 00
+R 00 00 00 00
+T 4A 00 3E 0E 02 18 30
+R 00 00 00 00
+T 4F 00
+R 00 00 00 00
+T 4F 00 CD 00 00 7D B7 28 0F 21 00 00 36 01 21
+R 00 00 00 00 02 03 04 00 00 0A 01 00
+T 5C 00 19 00 E5 CD 00 00 F1 18 1A
+R 00 00 00 00 02 06 09 00
+T 65 00
+R 00 00 00 00
+T 65 00 21 00 00 23 23 7E D6 03 20 05 CD 00 00 18
+R 00 00 00 00 02 03 07 00 02 0D 05 00
+T 73 00 03
+R 00 00 00 00
+T 74 00
+R 00 00 00 00
+T 74 00 CD 00 00
+R 00 00 00 00 02 03 00 00
+T 77 00
+R 00 00 00 00
+T 77 00 DD 6E 04 DD 66 05 36 0E
+R 00 00 00 00
+T 7F 00
+R 00 00 00 00
+T 7F 00 DD E1 C9
+R 00 00 00 00

@@ -1,0 +1,72 @@
+XL2
+H 9 areas 11 global symbols
+M gems_screen
+O -mz80
+S _engine_score_manager_draw_score_at Ref0000
+S _engine_audio_manager_sound_reset Ref0000
+S _engine_reset_manager_load Ref0000
+S _engine_reset_manager_reset Ref0000
+S .__.ABS. Def0000
+S _engine_delay_manager_update Ref0000
+S _engine_enemyX_manager_draw_enemys Ref0000
+S _engine_audio_manager_music_stop Ref0000
+S _global_reset_object Ref0000
+S _engine_input_manager_move_fire2 Ref0000
+S _engine_reset_manager_update Ref0000
+S _engine_memo_manager_draw_gems Ref0000
+S _engine_player_manager_hide Ref0000
+S _engine_tile_manager_draw_tile Ref0000
+S _engine_delay_manager_load Ref0000
+A _CODE size 88 flags 0 addr 0
+S _screen_gems_screen_load Def0000
+S _screen_gems_screen_update Def002F
+A _DATA size 1 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 CD 00 00 21 4B 00 E5 CD 00 00 F1 CD 00 00
+R 00 00 00 00 02 03 07 00 02 0A 0E 00 02 0E 0B 00
+T 0E 00 21 0D 15 E5 3E 0C F5 33 CD 00 00 33 21
+R 00 00 00 00 02 0B 0D 00
+T 1B 00 14 16 E3 CD 00 00 26 4B E3 33 CD 00 00 33
+R 00 00 00 00 02 06 00 00 02 0D 02 00
+T 29 00 21 00 00 36 00 C9
+R 00 00 00 00 00 03 01 00
+T 2F 00
+R 00 00 00 00
+T 2F 00 DD E5 DD 21 00 00 DD 39 F5 CD 00 00 5D D5
+R 00 00 00 00 02 0C 05 00
+T 3D 00 CD 00 00 7D D1 57 DD 7E 04 DD 77 FE DD 7E
+R 00 00 00 00 02 03 09 00
+T 4B 00 05 DD 77 FF 7A B7 28 17 D5 CD 00 00 D1 7D
+R 00 00 00 00 02 0C 0A 00
+T 59 00 B7 28 13 CD 00 00 21 02 00 36 03 E1 E5 36
+R 00 00 00 00 02 06 01 00 02 09 08 00
+T 67 00 0E 18 19
+R 00 00 00 00
+T 6A 00
+R 00 00 00 00
+T 6A 00 D5 CD 00 00 D1
+R 00 00 00 00 02 04 03 00
+T 6F 00
+R 00 00 00 00
+T 6F 00 7B B7 28 06 E1 E5 36 0C 18 0A
+R 00 00 00 00
+T 79 00
+R 00 00 00 00
+T 79 00 CD 00 00 CD 00 00 E1 E5 36 10
+R 00 00 00 00 02 03 06 00 02 06 0C 00
+T 83 00
+R 00 00 00 00
+T 83 00 DD F9 DD E1 C9
+R 00 00 00 00

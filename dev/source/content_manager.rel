@@ -1,0 +1,75 @@
+XL2
+H 9 areas 16 global symbols
+M content_manager
+O -mz80
+S _title8__tiles__psgcompr Ref0000
+S _splash__tilemap__stmcompr Ref0000
+S _devkit_SMS_loadSTMcompressedTileMap Ref0000
+S _sprites__palette__bin Ref0000
+S _devkit_SMS_loadBGPalette Ref0000
+S _back_tiles__palette__bin Ref0000
+S _title8__tilemap__stmcompr Ref0000
+S _devkit_SMS_loadPSGaidencompressedTiles Ref0000
+S .__.ABS. Def0000
+S _splash__tiles__psgcompr Ref0000
+S _guardA_idle__tiles__psgcompr Ref0000
+S _back_tiles__tiles__psgcompr Ref0000
+S _guardB_idle__tiles__psgcompr Ref0000
+S _guardC_idle__tiles__psgcompr Ref0000
+S _guardD_idle__tiles__psgcompr Ref0000
+S _devkit_SMS_loadSpritePalette Ref0000
+S _devkit_SMS_mapROMBank Ref0000
+A _CODE size A7 flags 0 addr 0
+S _engine_content_manager_load_guards Def006D
+S _engine_content_manager_load_sprites Def0016
+S _engine_content_manager_load_splash Def0027
+S _engine_content_manager_load_back_tiles Def0000
+S _engine_content_manager_load_title Def004A
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 21 00 00 E5 21 00 00 E5 CD 00 00 F1 F1 01
+R 00 00 00 00 02 07 0B 00 02 0B 07 00
+T 0E 00 00 00 C5 CD 00 00 F1 C9
+R 00 00 00 00 02 02 05 00 02 06 04 00
+T 16 00
+R 00 00 00 00
+T 16 00 3E 02 F5 33 CD 00 00 33 01 00 00 C5 CD
+R 00 00 00 00 02 07 10 00 02 0B 03 00
+T 23 00 00 00 F1 C9
+R 00 00 00 00 02 02 0F 00
+T 27 00
+R 00 00 00 00
+T 27 00 3E 03 F5 33 CD 00 00 33 21 80 00 E5 21
+R 00 00 00 00 02 07 10 00
+T 34 00 00 00 E5 CD 00 00 F1 F1 01 00 00 C5 21
+R 00 00 00 00 02 02 09 00 02 06 07 00 02 0B 01 00
+T 41 00 00 00 E5 CD 00 00 F1 F1 C9
+R 00 00 00 00 02 06 02 00
+T 4A 00
+R 00 00 00 00
+T 4A 00 3E 03 F5 33 CD 00 00 33 21 80 00 E5 21
+R 00 00 00 00 02 07 10 00
+T 57 00 00 00 E5 CD 00 00 F1 F1 01 00 00 C5 21
+R 00 00 00 00 02 02 00 00 02 06 07 00 02 0B 06 00
+T 64 00 00 00 E5 CD 00 00 F1 F1 C9
+R 00 00 00 00 02 06 02 00
+T 6D 00
+R 00 00 00 00
+T 6D 00 3E 03 F5 33 CD 00 00 33 21 80 00 E5 21
+R 00 00 00 00 02 07 10 00
+T 7A 00 00 00 E5 CD 00 00 F1 21 88 00 E3 21 00 00
+R 00 00 00 00 02 02 0A 00 02 06 07 00 02 0E 0C 00
+T 88 00 E5 CD 00 00 F1 21 90 00 E3 21 00 00 E5 CD
+R 00 00 00 00 02 04 07 00 02 0C 0D 00
+T 96 00 00 00 F1 21 98 00 E3 21 00 00 E5 CD 00 00
+R 00 00 00 00 02 02 07 00 02 0A 0E 00 02 0E 07 00
+T A4 00 F1 F1 C9
+R 00 00 00 00

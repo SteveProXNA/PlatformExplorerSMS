@@ -1,0 +1,32 @@
+XL2
+H 9 areas 3 global symbols
+M debug_manager
+O -mz80
+S .__.ABS. Def0000
+S _engine_tile_manager_draw_tile Ref0000
+A _CODE size 23 flags 0 addr 0
+S _engine_debug_manager_draw_grid Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 0E 00
+R 00 00 00 00
+T 02 00
+R 00 00 00 00
+T 02 00 06 00
+R 00 00 00 00
+T 04 00
+R 00 00 00 00
+T 04 00 C5 79 F5 33 C5 33 3E 0F F5 33 CD 00 00 F1
+R 00 00 00 00 02 0D 01 00
+T 12 00 33 C1 04 04 78 D6 20 38 E9 0C 0C 79 D6 18
+R 00 00 00 00
+T 20 00 38 E0 C9
+R 00 00 00 00
