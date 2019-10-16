@@ -10,7 +10,7 @@ S .__.ABS. Def0000
 S _devkit_PORT_A_KEY_UP Ref0000
 S _devkit_SMS_getKeysStatus Ref0000
 S _devkit_PORT_A_KEY_LEFT Ref0000
-A _CODE size C3 flags 0 addr 0
+A _CODE size D1 flags 0 addr 0
 S _engine_input_manager_update Def0000
 S _engine_input_manager_move_down Def004C
 S _engine_input_manager_hold_fire1 Def0031
@@ -114,8 +114,10 @@ T B4 00 2E 01 C9
 R 00 00 00 00
 T B7 00
 R 00 00 00 00
-T B7 00 21 00 00 4E 21 02 00 39 7E A1 6F C9
+T B7 00 3A 00 00 FD 21 02 00 FD 39 FD A6 00 6F 3A
 R 00 00 00 00 00 03 02 00
+T C5 00 01 00 FD 21 02 00 FD 39 FD A6 01 C9
+R 00 00 00 00 00 02 02 00
 T 00 00
 R 00 00 07 00
 T 00 00 00 00

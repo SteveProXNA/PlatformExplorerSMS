@@ -14,7 +14,7 @@ S _engine_audio_manager_music_stop Ref0000
 S _engine_audio_manager_sound_death Ref0000
 S _engine_score_manager_update_lives Ref0000
 S _engine_delay_manager_load Ref0000
-A _CODE size 76 flags 0 addr 0
+A _CODE size 77 flags 0 addr 0
 S _screen_dead_screen_update Def0036
 S _screen_dead_screen_load Def0000
 A _DATA size 0 flags 0 addr 0
@@ -45,23 +45,23 @@ T 36 00
 R 00 00 00 00
 T 36 00 DD E5 DD 21 00 00 DD 39 CD 00 00 21 00 00
 R 00 00 00 00 02 0B 07 00 02 0E 01 00
-T 44 00 11 07 00 19 4E 23 CB 7E 20 03 CD 00 00
-R 00 00 00 00 02 0D 00 00
-T 51 00
+T 44 00 11 07 00 19 4E 23 46 CB 78 20 03 CD 00 00
+R 00 00 00 00 02 0E 00 00
+T 52 00
 R 00 00 00 00
-T 51 00 CD 00 00 DD 5E 04 DD 56 05 7D B7 28 12 21
+T 52 00 CD 00 00 DD 5E 04 DD 56 05 7D B7 28 12 21
 R 00 00 00 00 02 03 05 00
-T 5F 00 00 00 23 7E B7 20 05 3E 12 12 18 08
+T 60 00 00 00 23 7E B7 20 05 3E 12 12 18 08
 R 00 00 00 00 02 02 06 00
-T 6B 00
+T 6C 00
 R 00 00 00 00
-T 6B 00 3E 0B 12 18 03
+T 6C 00 3E 0B 12 18 03
 R 00 00 00 00
-T 70 00
+T 71 00
 R 00 00 00 00
-T 70 00 3E 11 12
+T 71 00 3E 11 12
 R 00 00 00 00
-T 73 00
+T 74 00
 R 00 00 00 00
-T 73 00 DD E1 C9
+T 74 00 DD E1 C9
 R 00 00 00 00
