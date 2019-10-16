@@ -13,7 +13,7 @@ REM gfx.bat
 REM psg.bat
 
 cd engine
-sdcc -c -mz80 --opt-code-speed --peep-file ..\peep-rules.txt --std-c99 asm_manager.c
+REM sdcc -c -mz80 --opt-code-speed --peep-file ..\peep-rules.txt --std-c99 asm_manager.c
 cd ..
 
 cd source
@@ -187,7 +187,7 @@ ihx2sms output.ihx output.sms
 
 REM copy output.sms
 copy output.sms ..
-copy output.sms ..\PlatformExplorer-3.0.sms
+copy output.sms ..\PlatformExplorer-3.1.sms
 REM copy output.sms ..\asm
 REM cd ..\asm
 REM smsexamine.exe output.sms
@@ -209,7 +209,7 @@ if exist "*.asm" del "*.asm" > nul
 if exist "*.ihx" del "*.ihx" > nul
 if exist "*.lk"  del "*.lk"  > nul
 if exist "*.lst" del "*.lst" > nul
-if exist "*.map" del "*.map" > nul
+REM if exist "*.map" del "*.map" > nul
 if exist "*.noi" del "*.noi" > nul
 REM if exist "*.rel" del "*.rel" > nul
 if exist "*.sym" del "*.sym" > nul

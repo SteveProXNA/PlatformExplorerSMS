@@ -1,7 +1,7 @@
 #ifndef _LOCALE_MANAGER_H_
 #define _LOCALE_MANAGER_H_
 
-#define LOCALE_BUILD_VERSION		"V3.0"
+#define LOCALE_BUILD_VERSION		"V3.1"
 
 #define LOCALE_BLANK_WIDTH		"                                "
 #define LOCALE_BLANK_SIZE10		"          "

@@ -39,6 +39,8 @@ void screen_reset_screen_update( unsigned char *screen_type )
 				if( go->tutorial )
 				{
 					go->tutorial = 0;
+					go->world_no = 0;
+					go->round_no = 0;
 				}
 			}
 

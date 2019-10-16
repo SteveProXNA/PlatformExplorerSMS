@@ -35,7 +35,7 @@ void screen_entry_screen_load()
 void screen_entry_screen_update( unsigned char *screen_type )
 {
 	struct_game_object *go = &global_game_object;
-	unsigned char test[ 5 ] = { 0, 0, 0, 0, 0 };
+	unsigned char test[ 4 ] = { 0, 0, 0, 0 };
 
 	test[ 0 ] = engine_input_manager_hold_up();
 	test[ 1 ] = engine_input_manager_hold_down();
@@ -53,33 +53,8 @@ void screen_entry_screen_update( unsigned char *screen_type )
 		return;
 	}
 
-	test[ 2 ] = engine_input_manager_hold_fire1();
-	if( test[ 2 ] )
-	{
-		engine_audio_manager_sound_accept();
-		*screen_type = screen_type_diff;
-		return;
-	}
-
-	test[ 3 ] = engine_input_manager_move_down();
+	test[ 3 ] = engine_input_manager_hold_fire2();
 	if( test[ 3 ] )
-	{
-		/*test[ 4 ] = engine_input_manager_hold_fire2();
-		if( test[ 4 ] )
-		{
-			select_count++;
-			if( select_count >= LOCAL_SELECT_TOTAL )
-			{
-				*screen_type = screen_type_view;
-				return;
-			}
-		}*/
-
-		return;
-	}
-
-	test[ 4 ] = engine_input_manager_hold_fire2();
-	if( test[ 4 ] )
 	{
 		*screen_type = screen_type_title;
 		return;
